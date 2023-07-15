@@ -1,0 +1,73 @@
+# dsn
+dataset: office31
+data_transforms: None
+data_loader_workers: 64
+# Pretrained on source
+pretrained: ''
+# test pretrained resume
+resume: ''
+test_only: False
+#source_domain
+sdomain : "a"
+source_path: "./data_labels/Office31/amazon_31_list.txt"
+#target_domain
+tdomain : "w"
+target_path: "./data_labels/Office31/webcam_31_list.txt"
+
+#model_scaling
+model: models.s_resnet
+depth: 50
+num_subnets: 4
+depth_mult_range: [0.5, 1]
+depth_mult_list: [0.5, 1]
+reset_parameters: True
+width_mult_list: [0.9, 1]
+width_mult_range: [0.9, 1]
+resolution_list: [224, 192, 160, 128]
+#rd loss
+warmup_teacher_temp: 0.04
+teacher_temp: 0.04
+warmup_teacher_temp_epochs: 0
+ema_decay: 0.9
+#loss_balancing
+gamma_ce: 16
+gamma_rd: 1
+gamma_pl: 1
+pl_thresh: 0.9
+# info
+num_classes: 31
+image_resize: 256
+image_size: 224
+#epochs
+sonly_ep: 0
+warm_ep: 15
+num_epochs: 30
+print_freq: 100
+save_freq: 10
+
+# optimizer
+optimizer: sgd
+momentum: 0.9
+weight_decay: 0.001
+nesterov: True
+
+# lr
+lr:   0.0002
+lr_scheduler: cosine
+
+# model profiling
+profiling: [gpu]
+
+#
+random_seed: 50
+############
+use_dis: False
+use_iml: True
+############
+use_aug: True
+is_cl_bln: False
+lbl_smooth: True
+s_bs: 32
+t_bs: 32
+batch_size: 32
+log_dir: logs/

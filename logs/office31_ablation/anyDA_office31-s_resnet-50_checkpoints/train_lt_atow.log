@@ -1,0 +1,12 @@
+03/14 07:00:05 AM | Start training.
+03/14 07:00:11 AM | VAL 5.7s 1x Epoch:0/30 Loss:16.5392 Acc:0.035
+03/14 07:00:16 AM | VAL 11.1s 0.9x Epoch:0/30 Loss:4.9046 Acc:0.016
+03/14 07:01:45 AM | Start training.
+03/14 07:03:49 AM | Start training.
+03/14 07:03:58 AM | Epoch:1/30 Iter:0/[s:88 t:24] LR:0.000200 Subnet(DxWxR):1.0x1.0x224 :: source_ce: 3.5379 target_rd: 0.0150 target_pl: 2.6547 info_loss: -0.0150
+03/14 07:03:59 AM | Epoch:1/30 Iter:0/[s:88 t:24] LR:0.000200 Subnet(DxWxR):1.0x1.0x192 :: source_ce: 3.5394 target_rd: 12.1323 target_pl: 2.6547 info_loss: -0.0149
+03/14 07:03:59 AM | Epoch:1/30 Iter:0/[s:88 t:24] LR:0.000200 Subnet(DxWxR):0.5x0.9x224 :: source_ce: 3.4583 target_rd: 6.1153 target_pl: 2.6547 info_loss: -0.0067
+03/14 07:04:00 AM | Epoch:1/30 Iter:0/[s:88 t:24] LR:0.000200 Subnet(DxWxR):0.5x0.9x128 :: source_ce: 3.4614 target_rd: 6.3954 target_pl: 2.6547 info_loss: -0.0078
+03/14 07:04:01 AM | Epoch:1/30 Iter:1/[s:88 t:24] LR:0.000200 Subnet(DxWxR):1.0x1.0x224 :: source_ce: 11.7857 target_rd: 0.0009 target_pl: 1.2316 info_loss: -0.0009
+03/14 07:04:01 AM | Epoch:1/30 Iter:1/[s:88 t:24] LR:0.000200 Subnet(DxWxR):1.0x1.0x192 :: source_ce: 11.9414 target_rd: 107.0541 target_pl: 1.2316 info_loss: -0.0005
+03/14 07:04:02 AM | Epoch:1/30 Iter:1/[s:88 t:24] LR:0.000200 Subnet(DxWxR):0.5x1.0x160 :: source_ce: 6.6537 target_rd: 57.7018 target_pl: 1.2316 info_loss: -0.0203
