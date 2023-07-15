@@ -1,7 +1,19 @@
-# AnyDA: Anytime Domain Adaptation
-The repository contains code for the ECCV-2022 Submission - **AnyDA: Anytime Domain Adaptation**.
+# AnyDA: Anytime Domain Adaptation [[Paper]](https://openreview.net/pdf?id=yyLvxYBJV1B) [[Website]](https://cvir.github.io/projects/anyda/)
 
-## Paper-ID-5260
+This repository contains the implementation details of our ICLR 2023 paper **AnyDA: Anytime Domain Adaptation**.
+
+Omprakash Chakraborty*, Aadarsh Sahoo, Rameswar Panda and Abir Das, "AnyDA: Anytime Domain Adaptation"\
+
+If you use the codes and models from this repo, please cite our work. Thanks!
+
+```
+@inproceedings{chakraborty2022anyda,
+  title={{AnyDA: Anytime Domain Adaptation}},
+  author={Chakraborty, Omprakash and Sahoo, Aadarsh and Panda, Rameswar and Das, Abir},
+  booktitle={The Eleventh International Conference on Learning Representations},
+  year={2023}
+}
+```
 
 ### Preparing the Environment
 
