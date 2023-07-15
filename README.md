@@ -1,4 +1,4 @@
-# AnyDA: Anytime Domain Adaptation [[Paper]](https://openreview.net/pdf?id=yyLvxYBJV1B) [[Website]](https://cvir.github.io/projects/anyda/)
+# AnyDA: Anytime Domain Adaptation [[Paper]](https://openreview.net/pdf?id=yyLvxYBJV1B) [[Website]](https://cvir.github.io/projects/anyda)
 
 This repository contains the implementation details of our ICLR 2023 paper **AnyDA: Anytime Domain Adaptation**.
 
